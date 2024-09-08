@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 550px; 
+    margin: 30px 0;
+}
+
+.container h1{
+    text-align: center;
+    margin: 0 20px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #50586C;
+    background-color: #f4f7fe;
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+form label{
+    margin-top: 20px;
+}
+
+form input, textarea{
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+form input[type="file"]{
+    background-color: #fff;
+}
+
+form h2{
+    font-size: 25px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+form h3{
+    font-size: 20px;
+    margin-top: 30px ;
+}
+
+
+form #submit-button{
+    padding: 10px 0;
+    margin-top: 15px;
+    background-color: #d0d6e3;
+    color: #333742;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+/* .popup-container {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.pop-up {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideIn 0.5s forwards;
+} 
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
+
+.output{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 30px;
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.5);
+    background-color: #d0d6e3;
+    /* display: none; */
+}
+
+.output{
+    margin-top: 30px;
+}
+
+.output h2{
+    text-align: center;
+}
+
+.output h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333742;
+    padding: 20px 0;
+}
+
+.output p{
+    padding: 10px 0;
+}
+
+.picture{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    margin-bottom: 20px;
+}
